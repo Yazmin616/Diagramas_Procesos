@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="Página-1" id="IuFQDD1ApVtyuSii9Jj7">
-    <mxGraphModel dx="881" dy="1558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1057" dy="1635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6UnUDHd71HaLtEaaTl7y-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" value="PROCESO DE CREACIÓN DE SOLICITUD" vertex="1">
-          <mxGeometry height="850" width="810" x="9" y="-40" as="geometry" />
+          <mxGeometry height="850" width="810" x="9" y="-1160" as="geometry" />
         </mxCell>
         <mxCell id="6UnUDHd71HaLtEaaTl7y-2" parent="6UnUDHd71HaLtEaaTl7y-1" style="swimlane;startSize=20;" value="USUARIO  " vertex="1">
           <mxGeometry height="850" width="270" x="20" as="geometry" />
