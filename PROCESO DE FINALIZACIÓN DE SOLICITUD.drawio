@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="Página-1" id="pyTuhXs9rF38VeFY24iM">
-    <mxGraphModel dx="1321" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="911" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XmFqp7ho-75nAeIAgl1s-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" value="PROCESO DE FINALIZACIÓN DE SOLICITUD" vertex="1">
+          <mxGeometry height="680" width="810" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="XmFqp7ho-75nAeIAgl1s-2" parent="XmFqp7ho-75nAeIAgl1s-1" style="swimlane;startSize=20;" value="USUARIO" vertex="1">
+          <mxGeometry height="680" width="260" x="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XmFqp7ho-75nAeIAgl1s-7" edge="1" parent="XmFqp7ho-75nAeIAgl1s-2" source="XmFqp7ho-75nAeIAgl1s-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XmFqp7ho-75nAeIAgl1s-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XmFqp7ho-75nAeIAgl1s-5" parent="XmFqp7ho-75nAeIAgl1s-2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Inicio" vertex="1">
+          <mxGeometry height="40" width="40" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XmFqp7ho-75nAeIAgl1s-9" edge="1" parent="XmFqp7ho-75nAeIAgl1s-2" source="XmFqp7ho-75nAeIAgl1s-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="XmFqp7ho-75nAeIAgl1s-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XmFqp7ho-75nAeIAgl1s-6" parent="XmFqp7ho-75nAeIAgl1s-2" style="rounded=0;whiteSpace=wrap;html=1;" value="Solicitud aprobada" vertex="1">
+          <mxGeometry height="40" width="120" x="90" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XmFqp7ho-75nAeIAgl1s-11" edge="1" parent="XmFqp7ho-75nAeIAgl1s-2" source="XmFqp7ho-75nAeIAgl1s-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XmFqp7ho-75nAeIAgl1s-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XmFqp7ho-75nAeIAgl1s-8" parent="XmFqp7ho-75nAeIAgl1s-2" style="rounded=0;whiteSpace=wrap;html=1;" value="Cargar combustible físicamente en estación." vertex="1">
+          <mxGeometry height="40" width="120" x="60" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XmFqp7ho-75nAeIAgl1s-13" edge="1" parent="XmFqp7ho-75nAeIAgl1s-2" source="XmFqp7ho-75nAeIAgl1s-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="XmFqp7ho-75nAeIAgl1s-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XmFqp7ho-75nAeIAgl1s-10" parent="XmFqp7ho-75nAeIAgl1s-2" style="rounded=0;whiteSpace=wrap;html=1;" value="Ir a &quot;Generar nueva solicitud&quot;" vertex="1">
+          <mxGeometry height="30" width="120" x="60" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="XmFqp7ho-75nAeIAgl1s-15" edge="1" parent="XmFqp7ho-75nAeIAgl1s-2" source="XmFqp7ho-75nAeIAgl1s-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XmFqp7ho-75nAeIAgl1s-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XmFqp7ho-75nAeIAgl1s-12" parent="XmFqp7ho-75nAeIAgl1s-2" style="rounded=0;whiteSpace=wrap;html=1;" value="Completar formulario de finalización:&lt;div&gt;-km final&lt;/div&gt;&lt;div&gt;-Lts finales en tanque&lt;/div&gt;&lt;div&gt;--Litros cargados&lt;/div&gt;&lt;div&gt;-Número de ticket&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="60" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="XmFqp7ho-75nAeIAgl1s-14" parent="XmFqp7ho-75nAeIAgl1s-2" style="rounded=0;whiteSpace=wrap;html=1;" value="Cargar evidencias:&lt;br&gt;-Foto del tablero&lt;div&gt;-Foto del ticket&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="60" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="XmFqp7ho-75nAeIAgl1s-16" edge="1" parent="XmFqp7ho-75nAeIAgl1s-2" source="XmFqp7ho-75nAeIAgl1s-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="XmFqp7ho-75nAeIAgl1s-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XmFqp7ho-75nAeIAgl1s-3" parent="XmFqp7ho-75nAeIAgl1s-1" style="swimlane;startSize=20;" value="SISTEMA" vertex="1">
+          <mxGeometry height="680" width="260" x="280" as="geometry" />
+        </mxCell>
+        <mxCell id="XmFqp7ho-75nAeIAgl1s-4" parent="XmFqp7ho-75nAeIAgl1s-1" style="swimlane;startSize=20;" value="CONTABILIDAD" vertex="1">
+          <mxGeometry height="680" width="270" x="540" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
